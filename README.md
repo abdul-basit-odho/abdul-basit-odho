@@ -1,156 +1,62 @@
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#3c4a2e"/>
+      <stop offset="45%" stop-color="#344128"/>
+      <stop offset="100%" stop-color="#212a16"/>
+    </radialGradient>
+    <linearGradient id="htmlLayer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4EDDD" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#F4EDDD" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="cssLayer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3C888" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="jsLayer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4EDDD" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#F4EDDD" stop-opacity="0.10"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
 
-<img src="./assets/banner.svg" width="100%" alt="Abdul Basit Odho — Frontend Developer, Karachi"/>
+  <rect width="1200" height="420" fill="url(#bg)"/>
 
-<br/><br/>
+  <!-- faint grid texture -->
+  <g opacity="0.06" stroke="#F4EDDD" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="120" y1="0" x2="120" y2="420"/>
+    <line x1="1080" y1="0" x2="1080" y2="420"/>
+  </g>
 
-<a href="https://abdulbasitodho.site">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=800&color=C9A24B&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Building+fast+React+%2F+Next.js+apps;Firebase-powered+e-commerce+%26+dashboards;WordPress+plugins+that+actually+ship;Brief+%E2%86%92+Build+%E2%86%92+Ship" alt="Typing SVG" />
-</a>
+  <!-- eyebrow -->
+  <text x="90" y="120" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="2" fill="#E3C888" opacity="0.9">~/abdul-basit-odho — karachi, pk</text>
 
-<br/>
+  <!-- title -->
+  <text x="88" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#F4EDDD">Abdul Basit Odho</text>
 
-<img src="https://komarev.com/ghpvc/?username=abdulbasitodho&label=Profile%20Views&color=344128&style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Available%20for%20Freelance-C9A24B?style=for-the-badge"/>
+  <!-- subtitle -->
+  <text x="90" y="228" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#E3C888">Frontend Developer, building in layers.</text>
 
-</div>
+  <!-- description -->
+  <text x="90" y="270" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4EDDD" opacity="0.7">React · Next.js · TypeScript · Firebase · WordPress</text>
 
-<br/>
+  <!-- stack of exploded layers, isometric-style, right side -->
+  <g transform="translate(760,60) rotate(-6)" filter="url(#soft)">
+    <rect x="0" y="140" width="330" height="150" rx="10" fill="url(#htmlLayer)" stroke="#F4EDDD" stroke-opacity="0.25"/>
+    <text x="24" y="270" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#F4EDDD" opacity="0.85">index.html</text>
 
-## `// about`
+    <rect x="34" y="90" width="330" height="150" rx="10" fill="url(#cssLayer)" stroke="#E3C888" stroke-opacity="0.4"/>
+    <text x="58" y="220" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3a2f10">style.css</text>
 
-```javascript
-const abdulBasit = {
-  location: "Karachi, Pakistan",
-  role: "Freelance Frontend Web Developer",
-  frontend: ["React.js", "Next.js", "TypeScript"],
-  backend: ["Firebase", "Node.js", "MySQL"],
-  cms: "WordPress",
-  deploy: "Netlify",
-  process: "brief → build → ship — live on a real domain, not a mockup",
-  portfolio: "https://abdulbasitodho.site"
-};
-```
+    <rect x="68" y="40" width="330" height="150" rx="10" fill="url(#jsLayer)" stroke="#F4EDDD" stroke-opacity="0.35"/>
+    <text x="92" y="170" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#F4EDDD">app.jsx</text>
+  </g>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,firebase,wordpress,nodejs,html,css,tailwind,netlify,figma&theme=light" />
-</div>
-
----
-
-## `// selected-work`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**~/projects/attendx**
-### AttendX
-Night-shift attendance management app with a live Firebase data layer.
-`React` `Firebase` `Realtime DB`
-
-</td>
-<td width="50%" valign="top">
-
-**~/projects/drape**
-### DRAPE
-Luxury jewelry & clothing e-commerce app, Firebase-integrated end to end.
-`React` `Firebase` `E-commerce`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**~/projects/earnpro**
-### EarnPro
-Referral & video-watching earning platform for Pakistani users.
-`React` `Firebase` `Referral System`
-
-</td>
-<td width="50%" valign="top">
-
-**~/projects/firebite**
-### FireBite
-Dark-themed restaurant ordering app built for a Karachi context.
-`React` `Firebase` `Dark UI`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**~/projects/luxe-flame**
-### Luxe Flame
-Luxury dark-themed restaurant web app, shipped as single-file JSX.
-`React` `Firebase` `Single-file`
-
-</td>
-<td width="50%" valign="top">
-
-**~/projects/odho-general-store**
-### Odho General Store
-Dual-panel shop app — PKR pricing, cash on delivery, coupon codes.
-`React` `PKR` `COD`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**~/projects/shazicare**
-### ShaziCare
-Skincare & beauty store app built for the Pakistani market.
-`React` `E-commerce`
-
-</td>
-<td width="50%" valign="top">
-
-**~/projects/entry-approval-manager**
-### Entry Approval Manager
-WordPress plugin — SMTP email-based entry approval.
-`WordPress` `PHP` `SMTP`
-
-</td>
-</tr>
-</table>
-
----
-
-## `// stats`
-
-<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=abdulbasitodho&show_icons=true&theme=transparent&title_color=C9A24B&icon_color=C9A24B&text_color=344128&border_color=344128&hide_border=false"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulbasitodho&layout=compact&theme=transparent&title_color=C9A24B&text_color=344128&border_color=344128&hide_border=false"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulbasitodho&theme=default&hide_border=false&background=FFFFFF00&stroke=344128&ring=C9A24B&fire=C9A24B&currStreakLabel=344128"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abdulbasitodho&theme=gruvbox&no-frame=true&column=7&margin-w=15&margin-h=15"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulbasitodho&theme=minimal&color=C9A24B&line=344128&point=C9A24B&area=true&hide_border=true"/>
-</div>
-
-<!-- Contribution snake — needs the GitHub Action described below -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/abdulbasitodho/abdulbasitodho/output/github-contribution-grid-snake.svg"/>
-</div>
-
----
-
-## `// contact`
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-344128?style=for-the-badge&logo=googlechrome&logoColor=white)](https://abdulbasitodho.site)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
-
-<sub>Karachi, Pakistan · available for freelance work</sub>
-
-</div>
+  <!-- bottom hairline -->
+  <line x1="90" y1="360" x2="1110" y2="360" stroke="#F4EDDD" stroke-opacity="0.15"/>
+  <text x="90" y="392" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#F4EDDD" opacity="0.55">available for freelance work</text>
+</svg>
