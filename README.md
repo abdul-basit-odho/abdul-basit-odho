@@ -1,62 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
-  <defs>
-    <radialGradient id="bg" cx="50%" cy="0%" r="100%">
-      <stop offset="0%" stop-color="#3c4a2e"/>
-      <stop offset="45%" stop-color="#344128"/>
-      <stop offset="100%" stop-color="#212a16"/>
-    </radialGradient>
-    <linearGradient id="htmlLayer" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F4EDDD" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#F4EDDD" stop-opacity="0.05"/>
-    </linearGradient>
-    <linearGradient id="cssLayer" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#E3C888" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0.16"/>
-    </linearGradient>
-    <linearGradient id="jsLayer" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F4EDDD" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#F4EDDD" stop-opacity="0.10"/>
-    </linearGradient>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
-    </filter>
-  </defs>
+<div align="center">
 
-  <rect width="1200" height="420" fill="url(#bg)"/>
+# 👋 Hi, I'm Abdul Basit Odho
 
-  <!-- faint grid texture -->
-  <g opacity="0.06" stroke="#F4EDDD" stroke-width="1">
-    <line x1="0" y1="60" x2="1200" y2="60"/>
-    <line x1="0" y1="360" x2="1200" y2="360"/>
-    <line x1="120" y1="0" x2="120" y2="420"/>
-    <line x1="1080" y1="0" x2="1080" y2="420"/>
-  </g>
+### 🚀 Freelance Frontend Web Developer | React • Next.js • TypeScript
 
-  <!-- eyebrow -->
-  <text x="90" y="120" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="2" fill="#E3C888" opacity="0.9">~/abdul-basit-odho — karachi, pk</text>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+%7C+Next.js+Developer;Building+Modern+Web+Applications;Always+Learning+New+Technologies" />
 
-  <!-- title -->
-  <text x="88" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#F4EDDD">Abdul Basit Odho</text>
+</div>
 
-  <!-- subtitle -->
-  <text x="90" y="228" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#E3C888">Frontend Developer, building in layers.</text>
+---
 
-  <!-- description -->
-  <text x="90" y="270" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4EDDD" opacity="0.7">React · Next.js · TypeScript · Firebase · WordPress</text>
+## 💫 About Me
 
-  <!-- stack of exploded layers, isometric-style, right side -->
-  <g transform="translate(760,60) rotate(-6)" filter="url(#soft)">
-    <rect x="0" y="140" width="330" height="150" rx="10" fill="url(#htmlLayer)" stroke="#F4EDDD" stroke-opacity="0.25"/>
-    <text x="24" y="270" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#F4EDDD" opacity="0.85">index.html</text>
+- 🔥 Frontend Developer from **Karachi, Pakistan**
+- ⚡ Building responsive and modern web applications
+- 💻 React.js, Next.js & JavaScript Specialist
+- 🌱 Currently learning **TypeScript & Backend Development**
+- 🤝 Available for Freelance Projects
+- 📧 Email: **your-email@example.com**
 
-    <rect x="34" y="90" width="330" height="150" rx="10" fill="url(#cssLayer)" stroke="#E3C888" stroke-opacity="0.4"/>
-    <text x="58" y="220" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3a2f10">style.css</text>
+---
 
-    <rect x="68" y="40" width="330" height="150" rx="10" fill="url(#jsLayer)" stroke="#F4EDDD" stroke-opacity="0.35"/>
-    <text x="92" y="170" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#F4EDDD">app.jsx</text>
-  </g>
+# 🛠 Tech Stack
 
-  <!-- bottom hairline -->
-  <line x1="90" y1="360" x2="1110" y2="360" stroke="#F4EDDD" stroke-opacity="0.15"/>
-  <text x="90" y="392" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#F4EDDD" opacity="0.55">available for freelance work</text>
-</svg>
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap" />
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,firebase,mysql,mongodb" />
+</p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,netlify" />
+</p>
+
+---
+
+# 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+
+![](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description | Live |
+|---------|-------------|------|
+| Portfolio | Personal Portfolio Website | 🔗 |
+| E-Commerce | React Shopping Website | 🔗 |
+| Admin Dashboard | Next.js Dashboard | 🔗 |
+| Landing Pages | Responsive Websites | 🔗 |
+
+---
+
+# 🌐 Connect With Me
+
+<p align="left">
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://skillicons.dev/icons?i=github" />
+</a>
+
+<a href="https://linkedin.com/in/YOUR_LINK">
+<img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+<a href="https://YOUR_PORTFOLIO.com">
+<img src="https://skillicons.dev/icons?i=vercel" />
+</a>
+
+<a href="https://twitter.com/YOUR_USERNAME">
+<img src="https://skillicons.dev/icons?i=twitter" />
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile+Views&color=0e75b6&style=flat)
+
+### ⭐ Thanks for visiting my profile!
+
+</div>
